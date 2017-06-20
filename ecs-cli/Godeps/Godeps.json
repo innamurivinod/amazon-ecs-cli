@@ -2,9 +2,6 @@
 	"ImportPath": "github.com/aws/amazon-ecs-cli/ecs-cli",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
-	"Packages": [
-		"./..."
-	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
@@ -317,11 +314,6 @@
 			"Rev": "59ba895a0f610f5bf34ef6748540af1509910bea"
 		},
 		{
-			"ImportPath": "github.com/docker/docker/pkg/mount",
-			"Comment": "docs-v1.12.0-rc4-2016-07-15-3943-g59ba895",
-			"Rev": "59ba895a0f610f5bf34ef6748540af1509910bea"
-		},
-		{
 			"ImportPath": "github.com/docker/docker/pkg/pools",
 			"Comment": "docs-v1.12.0-rc4-2016-07-15-3943-g59ba895",
 			"Rev": "59ba895a0f610f5bf34ef6748540af1509910bea"
@@ -377,6 +369,16 @@
 			"Rev": "e30f1e79f3cd72542f2026ceec18d3bd67ab859c"
 		},
 		{
+			"ImportPath": "github.com/docker/libcompose/cli/app",
+			"Comment": "v0.4.0-19-g8e4221d",
+			"Rev": "8e4221d0435d29e6239adf9ccb4de1f0c0ab0935"
+		},
+		{
+			"ImportPath": "github.com/docker/libcompose/cli/command",
+			"Comment": "v0.4.0-19-g8e4221d",
+			"Rev": "8e4221d0435d29e6239adf9ccb4de1f0c0ab0935"
+		},
+		{
 			"ImportPath": "github.com/docker/libcompose/config",
 			"Comment": "v0.4.0-19-g8e4221d",
 			"Rev": "8e4221d0435d29e6239adf9ccb4de1f0c0ab0935"
@@ -408,6 +410,11 @@
 		},
 		{
 			"ImportPath": "github.com/docker/libcompose/utils",
+			"Comment": "v0.4.0-19-g8e4221d",
+			"Rev": "8e4221d0435d29e6239adf9ccb4de1f0c0ab0935"
+		},
+		{
+			"ImportPath": "github.com/docker/libcompose/version",
 			"Comment": "v0.4.0-19-g8e4221d",
 			"Rev": "8e4221d0435d29e6239adf9ccb4de1f0c0ab0935"
 		},
